@@ -25,8 +25,8 @@ function rot13(encodedStr){
   return decodedArr;//return decodedArr
 }
 // run kidhr se
-// You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
+// ye comment nhi tha ques me You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
-// console.log(rot13("SERRYBIR?NPPVBWBO"));
+console.log(rot13("SERR YBIR? NPPVBWBO"));
 
 module.exports = rot13;
