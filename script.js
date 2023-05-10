@@ -15,9 +15,13 @@ function rot13(encodedStr){
   // Only change code below this line
   let arr = encodedStr.split("");
 	for(let i=0;i<encodedStr.length;i++){
-		decodedArr[i]=lookup[arr[i]];
+		if(arr[i]=" "){
+			decodedArr[i]=" ";
+		}
+		else{
+			decodedArr[i]=lookup[arr[i]];
 	}
-
+	}
   return decodedArr;//return decodedArr
 }
 // run kidhr se
