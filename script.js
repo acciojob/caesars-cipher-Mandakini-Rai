@@ -22,9 +22,9 @@ function rot13(encodedStr){
 			decodedArr[i]=lookup[arr[i]];
 	}
 	}
-  return decodedArr;//return decodedArr
+  return decodedArr.join("");//return decodedArr
 }
-// run kidhr se
+// run kidhr se abhi bhi glt h ek jagah
 // ye comment nhi tha ques me You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
 console.log(rot13("SERR YBIR? NPPVBWBO"));
