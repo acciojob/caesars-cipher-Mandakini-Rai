@@ -15,7 +15,7 @@ function rot13(encodedStr){
   // Only change code below this line
   let arr = encodedStr.split("");
 	for(let i=0;i<encodedStr.length;i++){
-		if(arr[i]=" "){
+		if(arr[i]==" "){
 			decodedArr[i]=" ";
 		}
 		else{
